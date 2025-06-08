@@ -12,7 +12,7 @@ const SkipCard = ({ skip, selected, onSelect }) => {
     <div className="flex flex-col items-center relative cursor-pointer" onClick={handleSelect}>
       <div
         className={`
-          w-full h-44 bg-black rounded-lg overflow-hidden shadow-lg transition-all duration-200 relative
+          w-full h-44 bg-gray-200 rounded-lg overflow-hidden shadow-lg transition-all duration-200 relative
           ${selected ? 'ring-4 ring-blue-700 ring-offset-2 shadow-2xl scale-105 z-10' : 'hover:ring-2 hover:ring-blue-500'}
         `}
       >
